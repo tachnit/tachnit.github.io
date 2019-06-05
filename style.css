@@ -1,0 +1,137 @@
+*{
+    font-family: 'Anonymous Pro', monospace;
+}
+body{
+    background-color: #221a0f;
+    font-size: 22px;
+}
+#python,.python{
+    background-color: #4CD964;
+}
+#ruby,.ruby{
+    background-color: #FF3B30;
+}
+#javascript,.javascript{
+    background-color: #FF9500;
+}
+#c,.c{
+    background-color: #1AD6FD;
+}
+#java,.java{
+    background-color: #EF4DB6;
+}
+#php,.php{
+    background-color: #FF4981;
+}
+.codediv{
+    color: #fbebd4;
+    background-color: #221a0f;
+    padding: 20px;
+    padding-top: 5px;
+}
+.section{
+    background-color: #221a0f;
+    margin: 5px;
+}
+.column{
+    width: 33.33%;
+    height: auto;
+    float: left;
+}
+@media screen and (max-width: 1200px) {
+    .column {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+    }
+}
+.language{
+    width: 100%;
+    float: left;
+    border-bottom: #221a0f 10px solid;
+}
+pre,p{
+    margin: 0em 0px;
+    background-color: #221a0f;
+}
+.vartype{
+    color: #7e602c;
+}
+.variable{
+    color: #dc3958;
+}
+.number{
+    color: #f79a32;
+}
+.string{
+    color: #889b4a;
+}
+.boolean{
+    color: #088649;
+}
+.keyword{
+    color: #98676a;
+}
+.operator{
+    color: #fbebd4;
+}
+.syntax{
+    color: #fbebd4;
+}
+.function{
+    color: #8ab1b0;
+}
+.console{
+    color: #f06431;
+}
+h3{
+    color: #fbebd4;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Secular One';
+    line-height: 60%;
+}
+h1{
+    color: #221a0f;
+    font-size: 72px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Secular One';
+}
+#head h1{
+    color: #fbebd4;
+    font-size: 96px;
+}
+#head h3{
+    line-height: 100%;
+}
+hr{
+    color: #fbebd4;
+}
+#nav{
+    text-align: center;
+    line-height: 200%;
+}
+#nav a{
+    color: #221a0f;
+    padding: 5px;
+    text-decoration: none;
+}
+#contact a{
+    color: #FF9500;
+    padding: 5px;
+    font-family: 'Secular One';
+    line-height: 100%;
+}
+#credit a{
+    color: #FF9500;
+    padding: 5px;
+    font-family: 'Secular One';
+    line-height: 100%;
+}
