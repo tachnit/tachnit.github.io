@@ -208,7 +208,7 @@ var code = {
             notes: [],
             content: [
                 `var x = [5, "Apple", true];`,
-                `console.log(x[2])`,
+                `console.log(x[2]);`,
             ],
             console: [
                 `true`,
@@ -358,7 +358,7 @@ var code = {
                 `   echo "hola";`,
                 `}`,
                 `else{`,
-                `   echo "bonjour"`,
+                `   echo "bonjour";`,
                 `}`,
             ],
             console: [
@@ -388,6 +388,96 @@ var code = {
             ],
             console: [
                 `7.6`,
+            ],
+        },
+    ],
+    "perl": [
+        {
+            name: "If Statement",
+            notes: [],
+            content: [
+                `$x = 4;`,
+                `if($x > 5){`,
+                `   print("hello\\n");`,
+                `}`,
+                `else if($x > 3){`,
+                `   print("hola\\n");`,
+                `}`,
+                `else{`,
+                `   print("bonjour\\n");`,
+                `}`,
+            ],
+            console: [
+                `"hola"`,
+            ],
+        },
+        {
+            name: "For Loop",
+            notes: [],
+            content: [
+                `for($x = 2; $x < 5; $x++){`,
+                `   print(x);`,
+                `}`,
+            ],
+            console: [
+                `2`,
+                `3`,
+                `4`,
+            ],
+        },
+        {
+            name: "Array",
+            notes: [],
+            content: [
+                `@x = (14, 6.4, "Hello");`,
+                `print($x[2]);`,
+            ],
+            console: [
+                `"Hello"`,
+            ],
+        },
+    ],
+    "brightscript": [
+        {
+            name: "If Statement",
+            notes: [],
+            content: [
+                `x = 4`,
+                `if x > 5 then`,
+                `   print "hello"`,
+                `elseif x > 3 then`,
+                `   print "hola"`,
+                `else`,
+                `   print "bonjour"`,
+                `end if`,
+            ],
+            console: [
+                `"hola"`,
+            ],
+        },
+        {
+            name: "For Loop",
+            notes: [],
+            content: [
+                `for x = 2 to 4 step 1`,
+                `   print x`,
+                `end for`,
+            ],
+            console: [
+                `2`,
+                `3`,
+                `4`,
+            ],
+        },
+        {
+            name: "Array",
+            notes: [],
+            content: [
+                `x = [14, 6.4, "Hello"]`,
+                `print x[2]`,
+            ],
+            console: [
+                `"Hello"`,
             ],
         },
     ],
