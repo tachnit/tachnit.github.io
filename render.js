@@ -4,18 +4,23 @@ $(document).ready(function(){
         "java": "ג'אווה",
         "javascript": "ג'אווה סקריפט",
         "ruby": "רובי",
+        "perl": "פרל",
         "if statement": "פקודת תנאי",
         "set": "קבוצה",
         "switch statement": "טענת החלפה",
         "array": "מערך",
-        "function": "שגרה",
+        "function": "פונקציה",
         "dictionary": "מילון",
         "boolean logic": "בוליאנית",
+        "tuple": "רשומה",
+        "while loop": "לולאה שנבדקת בראשה",
+        "for each loop": "לולאת אוסף",
+        "brightscript": "בריית סקריפט",
     }
     function render(lang){
         $("#languages").append(
             `<div id="${lang}" class="language">
-                <h1>${lang}${hebrew[lang] ? ` ${hebrew[lang]}` : ``}</h1>
+                <h1 id="langheader">${lang}${hebrew[lang] ? ` ${hebrew[lang]}` : ``}</h1>
                 <div id="section_0" class="column"></div>
                 <div id="section_1" class="column"></div>
                 <div id="section_2" class="column"></div>
@@ -54,4 +59,6 @@ $(document).ready(function(){
     render("c");
     render("javascript");
     render("php");
+    render("perl");
+    render("brightscript");
 });
