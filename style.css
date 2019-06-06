@@ -6,22 +6,28 @@ body{
     font-size: 22px;
 }
 #python,.python{
-    background-color: #4CD964;
+    background-color: #4CD96488;
 }
 #ruby,.ruby{
-    background-color: #FF3B30;
+    background-color: #FF3B3088;
 }
 #javascript,.javascript{
-    background-color: #FF9500;
+    background-color: #FF950088;
 }
 #c,.c{
-    background-color: #1AD6FD;
+    background-color: #1AD6FD88;
 }
 #java,.java{
-    background-color: #EF4DB6;
+    background-color: #EF4DB688;
 }
 #php,.php{
-    background-color: #FF4981;
+    background-color: #FF498188;
+}
+#perl,.perl{
+    background-color: #55EFCB88;
+}
+#brightscript,.brightscript{
+    background-color: #FFDB4C88;
 }
 .codediv{
     color: #fbebd4;
@@ -97,7 +103,7 @@ h3{
     line-height: 60%;
 }
 h1{
-    color: #221a0f;
+    color: #fbebd4;
     font-size: 72px;
     text-align: center;
     margin: 0;
@@ -119,7 +125,7 @@ hr{
     line-height: 200%;
 }
 #nav a{
-    color: #221a0f;
+    color: #fbebd4;
     padding: 5px;
     text-decoration: none;
 }
@@ -134,4 +140,7 @@ hr{
     padding: 5px;
     font-family: 'Secular One';
     line-height: 100%;
+}
+::selection {
+    background: #221a0f;
 }
