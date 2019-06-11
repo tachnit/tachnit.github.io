@@ -3,31 +3,79 @@
 }
 body{
     background-color: #221a0f;
-    font-size: 22px;
+    font-size: 21px;
 }
-#python,.python{
-    background-color: #4CD96488;
+.python{
+    background-color: #4CD964AA;
 }
-#ruby,.ruby{
-    background-color: #FF3B3088;
+.python:hover{
+    background-color: #4CD964EE;
 }
-#javascript,.javascript{
-    background-color: #FF950088;
+#python h1{
+    color: #4CD964AA;
 }
-#c,.c{
-    background-color: #1AD6FD88;
+.ruby{
+    background-color: #FF3B30AA;
 }
-#java,.java{
-    background-color: #EF4DB688;
+.ruby:hover{
+    background-color: #FF3B30EE;
 }
-#php,.php{
-    background-color: #FF498188;
+#ruby h1{
+    color: #FF3B30AA;
 }
-#perl,.perl{
-    background-color: #55EFCB88;
+.javascript{
+    background-color: #FF9500AA;
 }
-#brightscript,.brightscript{
-    background-color: #FFDB4C88;
+.javascript:hover{
+    background-color: #FF9500EE;
+}
+#javascript h1{
+    color: #FF9500AA;
+}
+.c{
+    background-color: #1AD6FDAA;
+}
+.c:hover{
+    background-color: #1AD6FDEE;
+}
+#c h1{
+    color: #1AD6FDAA;
+}
+.java{
+    background-color: #EF4DB6AA;
+}
+.java:hover{
+    background-color: #EF4DB6EE;
+}
+#java h1{
+    color: #EF4DB6AA;
+}
+.php{
+    background-color: #FF4981AA;
+}
+.php:hover{
+    background-color: #FF4981EE;
+}
+#php h1{
+    color: #FF4981AA;
+}
+.perl{
+    background-color: #55EFCBAA;
+}
+.perl:hover{
+    background-color: #55EFCBEE;
+}
+#perl h1{
+    color: #55EFCBAA;
+}
+.go{
+    background-color: #FFDB4CAA;
+}
+.go:hover{
+    background-color: #FFDB4CEE;
+}
+#go h1{
+    color: #FFDB4CAA;
 }
 .codediv{
     color: #fbebd4;
@@ -40,18 +88,24 @@ body{
     margin: 5px;
 }
 .column{
-    width: 33.33%;
+    width: 33%;
     height: auto;
     float: left;
 }
 @media screen and (max-width: 1200px) {
-    .column {
-        width: 50%;
+    body{
+        background-color: #221a0f;
+        font-size: 18px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .column {
         width: 100%;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: 21px;
     }
 }
 .language{
@@ -107,15 +161,12 @@ h1{
     font-size: 72px;
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     font-family: 'Secular One';
 }
 #head h1{
     color: #fbebd4;
     font-size: 96px;
-}
-#head h3{
-    line-height: 100%;
 }
 hr{
     color: #fbebd4;
@@ -135,12 +186,23 @@ hr{
     font-family: 'Secular One';
     line-height: 100%;
 }
+#contact a:hover{
+    color: #FF5E3A;
+}
 #credit a{
     color: #FF9500;
     padding: 5px;
     font-family: 'Secular One';
     line-height: 100%;
 }
+#credit a:hover{
+    color: #FF5E3A;
+}
 ::selection {
     background: #221a0f;
+}
+#phrase{
+    font-size: 28px;
+    line-height: 100%;
+    font-weight: 100;
 }
