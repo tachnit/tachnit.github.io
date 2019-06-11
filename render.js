@@ -5,6 +5,7 @@ $(document).ready(function(){
         "javascript": "ג'אווה סקריפט",
         "ruby": "רובי",
         "perl": "פרל",
+        "brightscript": "בריית סקריפט",
         "if statement": "פקודת תנאי",
         "set": "קבוצה",
         "switch statement": "טענת החלפה",
@@ -15,7 +16,7 @@ $(document).ready(function(){
         "tuple": "רשומה",
         "while loop": "לולאה שנבדקת בראשה",
         "for each loop": "לולאת אוסף",
-        "brightscript": "בריית סקריפט",
+        "ternary operator": "מפעילה משולשת",
     }
     function render(lang){
         $("#languages").append(
@@ -60,5 +61,5 @@ $(document).ready(function(){
     render("javascript");
     render("php");
     render("perl");
-    render("brightscript");
+    render("go");
 });
