@@ -106,6 +106,21 @@ var code = {
                 `"I code"`,
             ],
         },
+        {
+            name: "Boolean Logic",
+            notes: [],
+            content: [
+            `x = 3`,
+            `y = 10`,
+            `if x == 3 and y == 4{`,
+            `   print("AND gate")`,
+            `if x == 3 or y == 4:`,
+            `   print("OR gate")`,
+            ],
+            console: [
+                `"OR gate"`,
+            ],
+        },
     ],
     "ruby": [
         {
@@ -166,6 +181,73 @@ var code = {
             ],
             console: [
                 `"success"`,
+            ],
+        },
+        {
+            name: "Array",
+            notes: [],
+            content: [
+                `x = [true, "Orange", 9]`,
+                `puts x[1]`,
+            ],
+            console: [
+                `"Orange"`,
+            ],
+        },
+        {
+            name: "Function",
+            notes: [],
+            content: [
+                `def myfunction(name):`,
+                `   return "My name is " + name`,
+                `end`,
+                `puts myfunction("harris")`,
+            ],
+            console: [
+                `"My name is Harris"`,
+            ],
+        },
+        {
+            name: "While Loop",
+            notes: [],
+            content: [
+                `x = 3`,
+                `while x < 5`,
+                `   puts x`,
+                `   x = x + 1`,
+            ],
+            console: [
+                `3`,
+                `4`,
+            ],
+        },
+        {
+            name: "Boolean Logic",
+            notes: [],
+            content: [
+            `x = 3`,
+            `y = 10`,
+            `if x == 3 && y == 4`,
+            `   print("AND gate")`,
+            `end`,
+            `if x == 3 || y == 4`,
+            `   print("OR gate")`,
+            `end`,
+            ],
+            console: [
+                `"OR gate"`,
+            ],
+        },
+        {
+            name: "Map",
+            notes: [],
+            content: [
+            `arr = [1, 2, 3]`,
+            `arr.map {|x| x + 5}`,
+            `puts arr`,
+            ],
+            console: [
+                `[6, 7, 8]`,
             ],
         },
     ],
@@ -242,14 +324,26 @@ var code = {
             `var x = 3;`,
             `var y = 10;`,
             `if((x == 3) && (y == 4)){`,
-            `   console.log("AND gateway");`,
+            `   console.log("AND gate");`,
             `}`,
             `if((x == 3) || (y == 4)){`,
-            `   console.log("OR gateway");`,
+            `   console.log("OR gate");`,
             `}`,
             ],
             console: [
-                `"OR gateway"`,
+                `"OR gate"`,
+            ],
+        },
+        {
+            name: "Map",
+            notes: [],
+            content: [
+            `var arr = [1, 2, 3];`,
+            `arr = arr.map(x => x + 5);`,
+            `console.log(arr);`,
+            ],
+            console: [
+                `[6, 7, 8]`,
             ],
         },
     ],
@@ -298,6 +392,26 @@ var code = {
                 `7.6`,
             ],
         },
+        {
+            name: "Switch Statement",
+            notes: [],
+            content: [
+            `var x = 6;`,
+            `switch(x){`,
+            `   case 5:`,
+            `       printf("five");`,
+            `       break;`,
+            `   case 6:`,
+            `       printf("six");`,
+            `       break;`,
+            `   default:`,
+            `       printf("a number");`,
+            `}`,
+            ],
+            console: [
+                `"six"`,
+            ],
+        },
     ],
     "java": [
         {
@@ -334,6 +448,22 @@ var code = {
             ],
         },
         {
+            name: "While Loop",
+            notes: [],
+            content: [
+                `int x = 0;`,
+                `while (x < 3){`,
+                `   System.out.println(x);`,
+                `   x = x + 1;`,
+                `}`,
+           ],
+           console: [
+                `0`,
+                `1`,
+                `2`,
+            ],
+        },
+        {
             name: "Array",
             notes: [],
             content: [
@@ -342,6 +472,23 @@ var code = {
             ],
             console: [
                 `7.6`,
+            ],
+        },
+        {
+            name: "Boolean Logic",
+            notes: [],
+            content: [
+            `int x = 3;`,
+            `int y = 10;`,
+            `if((x == 3) && (y == 4)){`,
+            `   System.out.println("AND gate");`,
+            `}`,
+            `if((x == 3) || (y == 4)){`,
+            `   System.out.println("OR gate");`,
+            `}`,
+            ],
+            console: [
+                `"OR gate"`,
             ],
         },
     ],
@@ -437,19 +584,21 @@ var code = {
             ],
         },
     ],
-    "brightscript": [
+    "go": [
         {
             name: "If Statement",
             notes: [],
             content: [
-                `x = 4`,
-                `if x > 5 then`,
-                `   print "hello"`,
-                `elseif x > 3 then`,
-                `   print "hola"`,
-                `else`,
-                `   print "bonjour"`,
-                `end if`,
+                `var x = 4`,
+                `if x > 5 {`,
+                `   fmt.Println("hello")`,
+                `}`,
+                `else if x > 3 {`,
+                `   fmt.Println("hola")`,
+                `}`,
+                `else{`,
+                `   fmt.Println("bonjour")`,
+                `}`,
             ],
             console: [
                 `"hola"`,
@@ -459,9 +608,9 @@ var code = {
             name: "For Loop",
             notes: [],
             content: [
-                `for x = 2 to 4 step 1`,
-                `   print x`,
-                `end for`,
+                `for x := 2; x < 5; x++ {`,
+                `   fmt.Println(x)`,
+                `}`,
             ],
             console: [
                 `2`,
@@ -470,14 +619,20 @@ var code = {
             ],
         },
         {
-            name: "Array",
+            name: "Boolean Logic",
             notes: [],
             content: [
-                `x = [14, 6.4, "Hello"]`,
-                `print x[2]`,
+            `var x = 3`,
+            `var y = 10`,
+            `if x == 3 && y == 4 {`,
+            `   fmt.Println("AND gate")`,
+            `}`,
+            `if x == 3 || y == 4 {`,
+            `   fmt.Println("OR gate")`,
+            `}`,
             ],
             console: [
-                `"Hello"`,
+                `"OR gate"`,
             ],
         },
     ],
