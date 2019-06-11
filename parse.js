@@ -1,6 +1,6 @@
 var syntax = `:;,.{}[]() `.split("");
 var operator = `+-*/<>=&|`.split("");
-var keyword = ["if", "for", "in", "case", "while", "do", "else", "elif", "def", "elsif", "end", "until", "return", "switch", "break", "default", "unless", "console", "system", "out", "elseif","step", "to", "then"];
+var keyword = ["if", "for", "in", "case", "while", "do", "else", "elif", "def", "elsif", "end", "until", "return", "switch", "break", "default", "unless", "console", "system", "out", "elseif","step", "to", "then", "and", "or", "fmt"];
 var boolean = ["true", "false"];
 var vartype = ["var", "char", "int", "float", "bool", "boolean", "string", "let", "const", "double", "array"];
 var functionlist = ["range", "print", "puts", "log", "printf", "print", "println", "echo"];
