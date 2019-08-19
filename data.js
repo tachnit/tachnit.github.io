@@ -142,7 +142,7 @@ var code = {
         },
         {
             name: "For Loop",
-            notes: [],
+            notes: ["This is avoided by most Ruby programmers, beacuse the temporary 'x' variable will continue to persist outside the loop."],
             content: [
                 `for x in 2..4 do`,
                 `   puts x`,
@@ -151,8 +151,22 @@ var code = {
             console: [
                 `2`,
                 `3`,
-                `4`,
+                `4`
+            ]
+        },
+        {
+            name: "Each Loop",
+            notes: [],
+            content: [
+                `[1, 2, 3].each do |number|`,
+                `   puts number `,
+                `end`
             ],
+            console: [
+                `1`,
+                `2`,
+                `2`
+           ]
         },
         {
             name: "Until Loop",
