@@ -1,3 +1,12 @@
+This is the first Osage dictionary in the modern orthography =)
+Each Osage word is written in the Osage alphabet and in a Latin transliteration
+Can't see the Osage on your device? Download a font: https://www.google.com/get/noto/#sans-osge
+This was not possible without the help of many volunteers
+Thanks to Jakub, Wojtek, Filippos, Jonás, Victor, Aaron, Tahsin, Hubert, Christopher, Santiago, Max, and Batyah
+Special thanks to Craig, Mark, Michele, and Aino!
+I hope that this project will help people learn Osage so that the language can be passed onto future generations
+-Harris
+
 a, an - 𐓷𐓣͘ (wį), 𐓷𐓣͘𐓸𐓲𐓟 (wįxce)
 abalone - 𐓲𐓶𐓤𐓟 (hcúke)
 abandon someone - 𐓤𐓣𐓤𐓪𐓬𐓮𐓟 (kihkoopse), 𐓪𐓤𐓣𐓵𐓟 (ohkíðe)
